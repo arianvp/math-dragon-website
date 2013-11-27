@@ -1,0 +1,39 @@
+* { font-family: "Ubuntu" }
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 20px;
+}
+
+.math-dragon-logo {
+	color: #44f;
+}
+
+.math-dragon-logo .thin {
+	color: #000;
+	font-weight: 400;
+}
+.math-dragon-logo .it {
+	color: #888;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.infty-logo {
+	padding-left: 50px;
+}
+.navbar {
+	margin-bottom: 0px;
+}
+
+@media (max-width: 768px ) {
+	.infty-logo {
+		display: none;
+	}
+
+}
+
+.hidden {
+	visibility:hidden;
+}
