@@ -1,5 +1,9 @@
 * { font-family: "Ubuntu" }
 
+.nav {
+	z-index: 5000;
+}
+
 .navbar-brand {
 	font-weight: 700;
 	font-size: 50px;
