@@ -17,6 +17,9 @@ body {
   margin: 0;
   font-size: 4.5em;
   font-weight: 700;
+}
+
+.dramatic {
   text-shadow: black 3px 1px 1px;
 }
 
