@@ -125,9 +125,9 @@ body {
 /* product*/
 
 .product {
-background: #44f;
+background: #ffffff;
 padding: 50px 0;
-color: #ffffff;
+color: #000000;
 }
 
 .product-item {
@@ -135,6 +135,8 @@ color: #ffffff;
 }
 
 i.product-icon {
+  border: 3px solid #000000;
+  border-radius: 50%;
   display: inline-block;
   font-size: 50px;
   width: 140px;
@@ -146,12 +148,16 @@ i.product-icon {
   
 /* tussenstuk */
   
-.tussenstuk {
+.photo {
   color: #FF00C4;
   display: table;
   height: 400px;
   width: 100%;
-  background: #ffffff;
+  background: url(../img/portfolio-3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
   
 /* features */ 
