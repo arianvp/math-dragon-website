@@ -147,20 +147,21 @@ i.product-icon {
 /* tussenstuk */
   
 .tussenstuk {
-  color: #FF00C4;
+  color: #ffffff;
   display: table;
   height: 400px;
   width: 100%;
-  background: #ffffff;
+  background: url(../img/callout.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 }
   
 /* features */ 
   
-.features{
-background: #44f;
-padding: 50px 0;
-color: #ffffff;
-}
+
 
 /* about */
 

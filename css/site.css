@@ -1,5 +1,8 @@
 * { font-family: "Ubuntu" }
 
+
+body {
+}
 .nav {
 	z-index: 5000;
 }
@@ -11,7 +14,7 @@
 }
 
 .math-dragon-logo {
-	color: #44f;
+	color: #3E606F;
 }
 
 .math-dragon-logo .thin {
@@ -31,13 +34,100 @@
 	margin-bottom: 0px;
 }
 
-@media (max-width: 768px ) {
-	.infty-logo {
-		display: none;
-	}
+
+
+#naarbenee{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+}
+
+
+.product {
+	color:black;
+	background-color: white;
 
 }
 
+.product-item {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.product-item p {
+	text-align: justify;
+}
+.product-icon {
+	border: 3px solid black;
+	border-radius: 50%;
+}
+
+@media (max-width: 990px ) {
+	.phone {
+		display: none;
+	}
+}
+
+.feature {
+	padding-top: 100px;
+}
+
+.pad:nth-child(odd) {
+	color: white;
+	background-color: #3E606F;
+}
+.pad:nth-child(even) {
+	color: black;
+	background-color: white;
+}
+
+.phone {
+
+	width: 100%;
+}
+
+
 .hidden {
-	visibility:hidden;
+	display: none;
+}
+.foldout {
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	background-color: purple;
+	z-index: 1000;
+	color: white;
+	background-color: #3E606F;
+	box-shadow: 0px 5px 20px #10191d inset;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.upper {
+	margin: 0;
+	padding: 0;
+}
+.about-item {
+	margin-bottom: 0;
+}
+
+.driehoek {
+	background-color: white;
+	height: 0;
+	width: 0;
+	border-left: 20px solid transparent;  /* left arrow slant */
+	border-right: 20px solid transparent; /* right arrow slant */
+	border-bottom: 20px solid #2f2f2f; /* bottom, add background color here */
+	font-size: 0;
+	line-height: 0;
+	margin-right: 100%;
+	margin-left: 300px;
+}
+
+.lower {
+	padding-top: 0px;
+}
+
+.img {
+	positon: absolute;
+	bottom: 0;
 }
