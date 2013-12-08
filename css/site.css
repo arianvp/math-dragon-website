@@ -61,6 +61,7 @@ body {
 	border-radius: 50%;
 }
 
+
 @media (max-width: 990px ) {
 	.phone {
 		display: none;
@@ -130,4 +131,28 @@ body {
 .img {
 	positon: absolute;
 	bottom: 0;
+}
+
+.feature {
+
+	background-size: 400px;
+	background-repeat: no-repeat;
+	background-image: url('../img/phone.png');
+	padding-bottom: 50px;
+}
+@media (max-width: 990px) {
+	.feature {
+		background-image: none;
+	}	
+}
+
+.feature p {
+		text-align: justify;
+}
+.feature.right {
+	background-position: 80% 0%;
+}
+
+.feature.left {
+	background-position: 20% 0%;
 }
