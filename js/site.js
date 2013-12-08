@@ -53,10 +53,15 @@ $(function() {
         var height = self.outerHeight();
         self.height(0);
         self.animate({'height': height}, 200);
-        $('.lower').animate({'padding-top': height }, 200);
+        $('.lower').animate({'padding-top': height  }, 200);
+        $('.arrows .arrow').addClass('hidden');
+        $('.arrows .'+name +' .arrow').removeClass('hidden');
       } else {
         $('.lower').animate({'padding-top': 0}, 200);
         $('.foldout').addClass('hidden');
+        $('.arrows .'+name +' .arrow').addClass('hidden');
+        
+
         self.addClass('hidden');
 
       }
