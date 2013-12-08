@@ -146,11 +146,7 @@ body {
 
 	padding-bottom: 50px;
 }
-@media (max-width: 990px) {
-	.feature {
-		background-image: none;
-	}	
-}
+
 
 .feature p {
 		text-align: justify;
@@ -169,6 +165,13 @@ body {
 .feature-2 {
 	background-image: url('../img/phone.png');
 }
+
+@media (max-width: 990px) {
+	.feature {
+		background-image: none;
+	}	
+}
+
 .arrows {
 	padding-top: 30px;
 }
