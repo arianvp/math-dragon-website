@@ -1,4 +1,3 @@
-
 #Site layout
 ##Template http://startbootstrap.com/templates/stylish-portfolio.html Under Apache license
 ##Twitter Bootstrap
@@ -43,7 +42,7 @@ http://font.ubuntu.com/licence/
 #Images
 ## Background images
 ### Death To The Stock Photo
-Freely available for any use.
+Freely available for any use. All rights reserved
 http://join.deathtothestockphoto.com/
 
 ## Mockup phone
