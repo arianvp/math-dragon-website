@@ -61,14 +61,17 @@ $(function() {
           $('.lower').animate({'padding-top': 0}, 200);
           $('.foldout').addClass('hidden');
           $('.arrows .'+name +' .arrow').addClass('hidden');
-
-
           self.addClass('hidden');
-
         }
       });
     });
   }
+});
+
+$(function(){
+	$('.nav > li:not(dropdown)').click(function(){
+		$('.nav > li.dropdown').removeClass('open');
+	});
 });
 
 
