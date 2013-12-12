@@ -66,12 +66,7 @@ $(function() {
       });
     });
   }
+  $('.nav > li:not(.dropdown) > a').click(function(){
+    $('.nav > li.dropdown').removeClass('open');
+  });
 });
-
-$(function(){
-	$('.nav > li:not(dropdown)').click(function(){
-		$('.nav > li.dropdown').removeClass('open');
-	});
-});
-
-

@@ -1,5 +1,6 @@
 #Site layout
-##Template http://startbootstrap.com/templates/stylish-portfolio.html Under Apache license
+##Template 
+http://startbootstrap.com/templates/stylish-portfolio.html Under Apache license
 ##Twitter Bootstrap
 http://getbootstrap.com/
 Copyright 2013 Twitter, Inc under the Apache 2.0 license.
