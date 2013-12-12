@@ -70,7 +70,7 @@ $(function() {
       });
     });
   }
-  $('.nav > li:not(.dropdown) > a').click(function(){
+  $('.nav > li:not(.dropdown) > a, .navbar-brand').click(function(){
     $('.nav > li.dropdown').removeClass('open');
   });
 });
