@@ -125,13 +125,14 @@ body {
 /* product*/
 
 .product {
-background: #44f;
-padding: 50px 0;
-color: #ffffff;
+  background: #44f;
+  padding: 50px 0;
+  color: #ffffff;
 }
 
 .product-item {
   margin-bottom: 10px;
+
 }
 
 i.product-icon {
@@ -142,6 +143,7 @@ i.product-icon {
   line-height: 136px;
   vertical-align: middle; 
   text-align: center;
+
   }
   
 /* tussenstuk */
@@ -173,6 +175,7 @@ i.product-icon {
 
 .about-item {
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 i.about-icon {

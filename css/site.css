@@ -11,6 +11,8 @@ body {
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 12.5px;
+	cursor: pointer;
+	}
 }
 
 .math-dragon-logo {
@@ -181,6 +183,9 @@ body {
 	}
 	.tussenstuk, .callout {
 		height: 80px;
+	}
+    .about-item {
+	  cursor: default;
 	}
 }
 
