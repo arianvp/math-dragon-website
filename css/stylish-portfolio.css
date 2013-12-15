@@ -149,7 +149,7 @@ i.product-icon {
 .tussenstuk {
   color: #ffffff;
   display: table;
-  height: 200px;
+  height: 400px;
   width: 100%;
   background: url(../img/callout.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -199,9 +199,9 @@ i.about-icon {
 .callout {
   color: #ffffff;
   display: table;
-  height: 200px;
+  height: 400px;
   width: 100%;
-  background: url(../img/portfolio-1.jpg) no-repeat center center fixed; 
+  background: url(../img/gracht.JPG) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
