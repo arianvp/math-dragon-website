@@ -173,7 +173,14 @@ i.product-icon {
 
 .about-item {
   margin-bottom: 15px;
+  cursor: pointer;
+  color : black;
 }
+
+.about-item.bla{
+color:#44F;
+}
+
 
 i.about-icon {
   border: 3px solid #000000;
@@ -187,6 +194,9 @@ i.about-icon {
   text-align: center;
 }
 
+i.about-icon.bla{
+border: 3px solid red;
+}
 /* Intro */
 
 .project {

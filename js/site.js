@@ -29,6 +29,7 @@ $(function() {
       $('.nav > li.active').removeClass('active');
       parent.addClass('active');
     }
+	$('.navbar-collapse').removeClass('in').addClass('collapse');
   });
   $('.navbar-brand').click(function(e){
 
@@ -45,10 +46,15 @@ $(function() {
   if ($(window).width() > 990) {
     var names = ['arian','mark', 'glenn', 'tim', 'ivor', 'bas', 'folkert'];
     names.forEach(function(name){
-      $('.about-item.'+name).click(function(e){
+	  var aboutSelf = $('.about-item.'+name);
+      aboutSelf.click(function(e){
         var self = $('.foldout.'+name);
         var hidden = self.hasClass('hidden');
         if (hidden) {
+		  $('.about-icon').css('border-color', 'black')
+		  aboutSelf.children().filter('.about-icon').css('border-color', '#44F')
+		  $('.about-item').removeClass('bla');
+		  aboutSelf.addClass('bla');
           $('.foldout').addClass('hidden');
           self.removeClass('hidden');
           var height = self.outerHeight();
@@ -66,6 +72,8 @@ $(function() {
           $('.foldout').addClass('hidden');
           $('.arrows .'+name +' .arrow').addClass('hidden');
           self.addClass('hidden');
+		  aboutSelf.removeClass('bla');
+		  $('.about-icon').css('border-color', 'black')
         }
       });
     });
