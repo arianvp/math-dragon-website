@@ -32,10 +32,7 @@ $(function() {
 	$('.navbar-collapse').removeClass('in').addClass('collapse');
   });
   $('.navbar-brand').click(function(e){
-
-    if ($(window).width() <= 768) {
       $('a[href*=#top]').click();
-    }
     $('.nav > li.active').removeClass('active');
     $('.nav > li').first().addClass('active');
   });
