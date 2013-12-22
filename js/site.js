@@ -41,6 +41,7 @@ $(function() {
 
 $(function() {
   if ($(window).width() > 990) {
+    var once = false;
     var names = ['arian','mark', 'glenn', 'tim', 'ivor', 'bas', 'folkert'];
     names.forEach(function(name){
 	  var aboutSelf = $('.about-item.'+name);
@@ -48,29 +49,30 @@ $(function() {
         var self = $('.foldout.'+name);
         var hidden = self.hasClass('hidden');
         if (hidden) {
-		  $('.about-icon').css('border-color', 'black')
-		  aboutSelf.children().filter('.about-icon').css('border-color', '#44F')
-		  $('.about-item').removeClass('bla');
-		  aboutSelf.addClass('bla');
+		      $('.about-icon').css('border-color', 'black')
+		      aboutSelf.children().filter('.about-icon').css('border-color', '#3E606F')
+		      $('.about-item').removeClass('bla');
+		      aboutSelf.addClass('bla');
           $('.foldout').addClass('hidden');
           self.removeClass('hidden');
           var height = self.outerHeight();
-          self.height(0);
+          if (!once) { self.height(0); once = true;}
           self.animate({'height': height}, 200);
           $('.lower').animate({'padding-top': height  }, 200);
           var lower = $('.lower');
-          $('.lower > :not(.'+name+')').animate({'padding-top': 30}, 200);
-          $('.lower > .'+name).animate({'padding-top': 0}, 200);
+          $('.lower > :not(.'+name+')').css('padding-top', 30);
+          $('.lower > .'+name).css('padding-top', 0);
           $('.arrows .arrow').addClass('hidden');
           $('.arrows .'+name +' .arrow').removeClass('hidden');
         } else {
-          $('.lower').animate({'padding-top': 0}, 200);
-          $('.lower > *').animate({'padding-top':0}, 200);
+          $('.lower').css('padding-top', 0);
+          $('.lower > *').css('padding-top', 0);
           $('.foldout').addClass('hidden');
           $('.arrows .'+name +' .arrow').addClass('hidden');
           self.addClass('hidden');
-		  aboutSelf.removeClass('bla');
-		  $('.about-icon').css('border-color', 'black')
+          once = false;
+		      aboutSelf.removeClass('bla');
+		      $('.about-icon').css('border-color', 'black')
         }
       });
     });
