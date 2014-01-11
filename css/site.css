@@ -77,7 +77,7 @@ body {
 
 .pad:nth-child(odd) {
 	color: white;
-	background-color: #3E606F;
+	background-color: #2d4677;
 }
 .pad:nth-child(even) {
 	color: black;
