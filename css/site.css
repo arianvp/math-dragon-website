@@ -167,14 +167,16 @@ body {
 }
 
 .feature-1 {
-	background-image: url('../img/angle.png');
+	background-image: url('../img/demo-imp_nexus4_angle1.png');
 }
 .feature-2 {
-	background-image: url('../img/phone.png');
+	background-image: url('../img/drag_nexus4_portrait.png');
+	padding-bottom: 200px;
 }
 
 .feature-3 {
-	background-image: url('../img/phone.png');
+	background-image: url('../img/kb-port_nexus4_portrait.png');
+	padding-bottom: 200px;
 }
 
 .feature-4{
@@ -187,6 +189,12 @@ body {
 	}
 	.tussenstuk, .callout {
 		height: 80px;
+	}
+	.feature-1 {
+		padding-bottom: 10px;
+	}
+	.feature-3 {
+		padding-bottom: 10px;
 	}
 }
 
