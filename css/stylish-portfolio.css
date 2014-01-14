@@ -149,7 +149,7 @@ i.product-icon {
 .tussenstuk {
   color: #ffffff;
   display: table;
-  height: 400px;
+  height: 300px;
   width: 100%;
   background: url(../img/callout.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -209,9 +209,9 @@ border: 3px solid red;
 .callout {
   color: #ffffff;
   display: table;
-  height: 400px;
+  height: 300px;
   width: 100%;
-  background: url(../img/gracht.JPG) no-repeat center center fixed; 
+  background: url(../img/gracht2.JPG) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -254,7 +254,7 @@ border: 3px solid red;
 /* Footer */
 
 footer {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .top-scroll {
