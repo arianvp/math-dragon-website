@@ -60,7 +60,7 @@
             <li><a href="#">Presentatieslides</a>
             </li>
             <li class="divider"></li>
-            <li><a href="https://github.com/Divendo/math-dragon/releases">Download link</a>
+            <li><a href="#">Download link</a>
             </li>
           </ul>
         </li>
@@ -77,7 +77,7 @@
       <img src="img/dragOn_logo.png">
       <h3>
         The tool to help you with your math homework</h3>
-      <a href="https://github.com/Divendo/math-dragon/releases" class="btn btn-primary btn-lg">Download now</a>
+      <a href="#about" class="btn btn-primary btn-lg">Download now</a>
       <div class="row naarbenee">
         <div class="col-md-6 col-md-offset-3 text-center">
           <a href="#product"><i class="fa fa-angle-down fa-4x"></i></a>
@@ -126,8 +126,7 @@
           <div class="product-item">
             <i class="product-icon fa fa-users"></i>
             <h4>Open source</h4>
-            <p>Math DragOn is open source and freely available under the LGPLv3 license.</p>
-             <a href="https://github.com/Divendo/math-dragon" class="btn btn-lg btn-primary"> <i class="fa fa-github"></i>  Divendo/math-dragon</a>
+            <p>We made the code of Math DragOn open source and available under the LGPL v3 license. </p>
 		 </div>
         </div>
 	  </div>
