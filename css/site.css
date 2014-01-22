@@ -2,6 +2,7 @@
 
 
 body {
+    padding-top: 50px;
 }
 .nav {
 	z-index: 5000;
