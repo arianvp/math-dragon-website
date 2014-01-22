@@ -74,7 +74,11 @@ body {
 	.phone {
 		display: none;
 	}
+	#fork {
+	display: none;
 }
+}
+
 
 .feature {
 	padding-top: 100px;
@@ -105,10 +109,9 @@ body {
 	position: absolute;
 	left: 15px;
 	right: 15px;
-	background-color: purple;
 	z-index: 1000;
 	color: white;
-	background-color: #3E606F;
+	background-color: #2d4677;
 	box-shadow: 0px 5px 20px #10191d inset;
 	padding: 0;
 }
