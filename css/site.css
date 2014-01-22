@@ -70,15 +70,11 @@ body {
 }
 
 
-@media (max-width: 990px ) {
-	.phone {
-		display: none;
-	}
-	#fork {
-	display: none;
-}
-}
-
+@media (max-width: 990px) {
+	.phone { display: none; }
+	#fork { display: none; }
+        #video { display: none; }
+ }
 
 .feature {
 	padding-top: 100px;
