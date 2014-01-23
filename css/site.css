@@ -75,8 +75,13 @@ body {
 	.phone { display: none; }
 	#fork { display: none; }
         #video { display: none; }
- }
+}
 
+
+#video {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
 .feature {
 	padding-top: 100px;
 }
@@ -181,7 +186,7 @@ body {
 }
 
 .feature-4{
-	background-image: url('../img/angle-2.png');
+	background-image: url('../img/favs.png');
 }
 
 @media (max-width: 990px) {
