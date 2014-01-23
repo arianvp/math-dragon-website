@@ -49,8 +49,8 @@ $(function() {
         var self = $('.foldout.'+name);
         var hidden = self.hasClass('hidden');
         if (hidden) {
-		      $('.about-icon').css('border-color', 'black')
-		      aboutSelf.children().filter('.about-icon').css('border-color', '#44F')
+		      $('.about-icon').css('border-color', 'black');
+		      aboutSelf.children().filter('.about-icon').css('border-color', '#2d4677');
 		      $('.about-item').removeClass('bla');
 		      aboutSelf.addClass('bla');
           $('.foldout').addClass('hidden');
